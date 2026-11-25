@@ -45,3 +45,15 @@ print(subset.shape)
 # Exercise 8: Save
 df.to_csv("data/explored.csv", index=False)
 
+# Self-Assessment
+
+# 1. A boolean filter selects rows based on a condition.
+# Rows that meet the condition are kept.
+
+# 2. df["revenue"] returns a Series, while
+# df[["revenue"]] returns a DataFrame. This matters
+# when an operation requires a two-dimensional table.
+
+# 3. Pandas allows me to automate repetitive data
+# analysis tasks instead of performing them manually
+# in Excel.
